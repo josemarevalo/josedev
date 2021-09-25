@@ -39,7 +39,7 @@
 </template>
 
 <script>
-import Container from './Container.vue'
+import Container from '@/components/Container.vue'
 
 export default {
   name: 'Navigation',
