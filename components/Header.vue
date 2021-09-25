@@ -1,7 +1,5 @@
 <template>
   <div class="bg-[#1d1d1d] text-gray-100 absolute w-full">
-    <Navigation />
-
     <div>
       <Container>
         <div class="header__wrapper">
@@ -17,7 +15,7 @@
             </h2>
 
             <button class="header__call-to-action">
-              <p class="text-xl">Let's have a chat</p>
+              <p class="text-xl lg:text-2xl">Let's have a chat</p>
             </button>
           </div>
 
@@ -38,25 +36,23 @@
 
 <script>
 import Container from './Container.vue'
-import Navigation from './Navigation.vue'
 
 export default {
   name: 'Header',
   components: {
     Container,
-    Navigation,
   },
 }
 </script>
 
 <style lang="postcss">
 .header__wrapper {
-  @apply flex flex-col-reverse lg:flex-row mt-[70px] lg:mt-[120px] pb-[154px];
+  @apply flex flex-col-reverse lg:flex-row mt-[70px] lg:mt-[120px] pb-[154px] lg:pb-[206px];
 }
 .header__picture {
-  @apply border-gray-100 border-8 rounded-full overflow-hidden w-6/12 lg:w-auto mx-auto lg:mx-[0px];
+  @apply border-gray-100 border-8 rounded-full overflow-hidden w-8/12 md:w-4/12 lg:w-full mx-auto lg:mx-[0px];
 }
 .header__call-to-action {
-  @apply bg-gray-100 text-[#1d1d1d] py-2 px-10 rounded mt-[40px];
+  @apply bg-gray-100 text-[#1d1d1d] py-2 lg:py-4 px-[90px] lg:px-10 rounded mt-[40px] hover:bg-[#28f3c3];
 }
 </style>
