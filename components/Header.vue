@@ -19,7 +19,7 @@
         <div class="w-full lg:w-4/12">
           <div class="header__picture">
             <img
-              src="~/static/images/avatars/Jose.png"
+              src="~/assets/images/avatars/Jose.png"
               alt="jose-profile-picture"
               class="w-full h-full aspect-w-1 aspect-h-1"
             />
