@@ -1,36 +1,32 @@
 <template>
-  <div class="bg-[#1d1d1d] text-gray-100 absolute w-full">
-    <div>
-      <Container>
-        <div class="header__wrapper">
-          <div
-            class="header__content w-full lg:w-8/12 text-center lg:text-left"
-          >
-            <h1 class="text-5xl lg:text-8xl font-serif mt-[28px] lg:mt-none">
-              José M. Arévalo
-            </h1>
+  <div class="bg-[#1d1d1d] text-gray-100 w-full pt-[70px] lg:pt-[120px]">
+    <Container>
+      <div class="header__wrapper">
+        <div class="header__content w-full lg:w-8/12 text-center lg:text-left">
+          <h1 class="text-5xl lg:text-8xl font-serif mt-[28px] lg:mt-none">
+            José M. Arévalo
+          </h1>
 
-            <h2 class="text-2xl lg:text-3xl mt-[30px] lg:mt-[40px]">
-              Full Stack Software Developer
-            </h2>
+          <h2 class="text-2xl lg:text-3xl mt-[30px] lg:mt-[40px]">
+            Full Stack Software Developer
+          </h2>
 
-            <button class="header__call-to-action">
-              <p class="text-xl lg:text-2xl">Let's have a chat</p>
-            </button>
-          </div>
+          <button class="header__call-to-action">
+            <p class="text-xl lg:text-2xl">Let's have a chat</p>
+          </button>
+        </div>
 
-          <div class="w-full lg:w-4/12">
-            <div class="header__picture">
-              <img
-                src="~/static/images/avatars/Jose.png"
-                alt="jose-profile-picture"
-                class="w-full h-full aspect-w-1 aspect-h-1"
-              />
-            </div>
+        <div class="w-full lg:w-4/12">
+          <div class="header__picture">
+            <img
+              src="~/static/images/avatars/Jose.png"
+              alt="jose-profile-picture"
+              class="w-full h-full aspect-w-1 aspect-h-1"
+            />
           </div>
         </div>
-      </Container>
-    </div>
+      </div>
+    </Container>
   </div>
 </template>
 
@@ -47,7 +43,7 @@ export default {
 
 <style lang="postcss">
 .header__wrapper {
-  @apply flex flex-col-reverse lg:flex-row mt-[70px] lg:mt-[120px] pb-[154px] lg:pb-[206px];
+  @apply flex flex-col-reverse lg:flex-row pb-[154px] lg:pb-[206px];
 }
 .header__picture {
   @apply border-gray-100 border-8 rounded-full overflow-hidden w-8/12 md:w-4/12 lg:w-full mx-auto lg:mx-[0px];
