@@ -1,9 +1,9 @@
 <template>
   <Container>
     <div class="text-left md:ml-1 mt-[50px]">
-      <h1 class="font-serif text-[#1d1d1d] text-4xl md:text-5xl">
+      <h2 class="font-serif text-[#1d1d1d] text-4xl md:text-5xl">
         Passion Projects
-      </h1>
+      </h2>
 
       <div class="passion-projects__cards">
         <ProjectCard
