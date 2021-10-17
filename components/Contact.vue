@@ -4,16 +4,20 @@
       <h2 class="font-serif text-[#1d1d1d] text-4xl md:text-5xl">Contact</h2>
 
       <div class="flex flex-row mt-[30px] lg:mt-[40px]">
-        <div class="contact__card">
+        <form
+          action="https://getform.io/f/9ebd8290-40d4-4040-b854-c5044bec49d1"
+          method="POST"
+          class="contact__card"
+        >
           <p>Your Name:</p>
-          <input type="text" />
+          <input type="text" name="name" />
           <p>Your Email:</p>
-          <input type="text" />
+          <input type="email" name="email" />
           <p>Message:</p>
-          <input type="textarea" class="textarea" />
+          <input type="text" name="message" class="textarea" />
 
-          <button type="button" class="contact__button">Send message</button>
-        </div>
+          <button type="submit" class="contact__button">Send message</button>
+        </form>
 
         <div class="contact__panel">
           <h3 class="text-4xl">How Can I Help?</h3>
