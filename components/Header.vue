@@ -11,9 +11,9 @@
             Full Stack Software Developer
           </h2>
 
-          <button class="header__call-to-action">
-            <p class="text-xl lg:text-2xl">Let's have a chat</p>
-          </button>
+          <a href="#contact" class="header__call-to-action">
+            Let's have a chat
+          </a>
         </div>
 
         <div class="w-full lg:w-4/12">
@@ -49,6 +49,6 @@ export default {
   @apply border-gray-100 border-8 rounded-full overflow-hidden w-8/12 md:w-4/12 lg:w-full mx-auto lg:mx-[0px];
 }
 .header__call-to-action {
-  @apply bg-gray-100 text-[#1d1d1d] py-2 lg:py-4 px-[90px] lg:px-10 rounded mt-[40px] hover:bg-[#28f3c3];
+  @apply inline-block text-xl lg:text-2xl bg-gray-100 text-[#1d1d1d] py-2 lg:py-4 px-[90px] lg:px-10 rounded mt-[40px] hover:bg-[#28f3c3];
 }
 </style>

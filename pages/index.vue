@@ -1,10 +1,10 @@
 <template>
   <div>
     <Header />
-    <PassionProjects />
-    <Testimonials />
-    <About />
-    <Contact />
+    <PassionProjects id="passion-projects" />
+    <Testimonials id="testimonials" />
+    <About id="about" />
+    <Contact id="contact" />
   </div>
 </template>
 
@@ -26,3 +26,9 @@ export default {
   },
 }
 </script>
+
+<style>
+html {
+  scroll-behavior: smooth;
+}
+</style>

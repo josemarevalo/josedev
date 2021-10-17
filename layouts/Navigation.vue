@@ -30,9 +30,9 @@
       </div>
 
       <div class="nav__links" :class="isOpen ? 'block' : 'hidden'">
-        <a href="#" class="nav__link-item lg:mr-10">Projects</a>
-        <a href="#" class="nav__link-item lg:mr-10">About</a>
-        <a href="#" class="nav__link-item">Contact</a>
+        <a href="#passion-projects" class="nav__link-item lg:mr-10">Projects</a>
+        <a href="#about" class="nav__link-item lg:mr-10">About</a>
+        <a href="#contact" class="nav__link-item">Contact</a>
       </div>
     </Container>
   </nav>
