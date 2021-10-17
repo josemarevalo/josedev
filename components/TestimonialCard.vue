@@ -49,6 +49,6 @@ export default {
   @apply bg-white pb-[24px] px-[24px] md:pl-[16px] lg:pl-[24px] rounded-xl shadow text-xl text-[#1d1d1d] mt-20 md:mt-0 lg:mt-20;
 }
 .testimonial-card__avatar-border {
-  @apply flex items-center justify-center rounded-full overflow-hidden w-[136px] h-[136px] mx-auto bg-gradient-to-b from-[#28f3c3] to-[#E328F3] shadow-md;
+  @apply flex items-center justify-center rounded-full overflow-hidden w-[136px] h-[136px] mx-auto bg-gradient-to-br from-[#28f3c3] to-[#9a65d9] shadow-md;
 }
 </style>
