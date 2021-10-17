@@ -9,12 +9,23 @@
           method="POST"
           class="contact__card"
         >
-          <p>Your Name:</p>
-          <input type="text" name="name" />
-          <p>Your Email:</p>
-          <input type="email" name="email" />
-          <p>Message:</p>
-          <input type="text" name="message" class="textarea" />
+          <label for="name">Your Name:</label>
+          <input type="text" name="name" placeholder="Your Name" required />
+          <label for="email">Your Email:</label>
+          <input
+            type="email"
+            name="email"
+            placeholder="your@email.com"
+            required
+          />
+          <label for="message">Message:</label>
+          <textarea
+            type="text"
+            name="message"
+            placeholder="Your message..."
+            class="textarea"
+            required
+          />
 
           <button type="submit" class="contact__button">Send message</button>
         </form>
@@ -47,11 +58,12 @@ export default {
 .contact__card {
   @apply w-full md:w-6/12 bg-white rounded-xl md:rounded-r-none shadow-md p-[16px] lg:px-[42px] lg:py-[50px] text-2xl md:my-[24px];
 }
-input {
-  @apply border border-[#1d1d1d] rounded-md mt-[10px] mb-[16px] lg:mb-[40px] w-full h-[40px];
-
+input,
+textarea {
+  @apply text-xl border border-[#1d1d1d] rounded-md mt-[10px] mb-[16px] lg:mb-[40px] w-full h-[40px] px-[8px];
   &.textarea {
-    @apply h-[170px];
+    @apply h-[170px] pt-[8px];
+    resize: none;
   }
 }
 .contact__button {
