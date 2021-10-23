@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-[#1d1d1d] pt-[30px] pb-[26px]">
+  <div class="bg-[#1d1d1d] pt-[30px] pb-[26px] font-bold">
     <Container class="text-[#f9f9f9] text-center flex flex-col justify-center">
       <p class="mx-auto">
         Made with 💚 by José M. Arévalo,<br />
@@ -16,5 +16,3 @@ export default {
   name: 'Footer',
 }
 </script>
-
-<style lang="postcss" scoped></style>
