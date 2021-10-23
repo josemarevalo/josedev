@@ -24,7 +24,7 @@
       </div>
 
       <div class="mt-auto flex items-end">
-        <button class="card__call-to-action">
+        <button class="card__call-to-action" @click="temporaryFunction()">
           <p class="text-lg lg:text-xl">Learn more</p>
         </button>
       </div>
@@ -55,6 +55,11 @@ export default {
     type: {
       type: String,
       required: true,
+    },
+  },
+  methods: {
+    temporaryFunction() {
+      return alert('The full article for this project is coming soon :)')
     },
   },
 }
