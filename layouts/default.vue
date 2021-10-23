@@ -2,17 +2,18 @@
   <div>
     <Navigation />
     <Nuxt />
-    <!-- <Footer /> -->
+    <Footer />
   </div>
 </template>
 
 <script>
 import Navigation from './Navigation.vue'
-// import Footer from './Footer.vue'
+import Footer from './Footer.vue'
+
 export default {
   components: {
     Navigation,
-    // Footer,
+    Footer,
   },
 }
 </script>
