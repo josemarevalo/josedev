@@ -32,11 +32,11 @@
 
         <div class="contact__panel">
           <h3 class="text-4xl">How Can I Help?</h3>
-          <p class="mt-[50px]">You’ve got a project in mind?</p>
-          <p class="mt-[40px]">Your current project needs more hands?</p>
-          <p class="mt-[40px]">Don’t know where to start?</p>
+          <p class="mt-[50px]">🧠 You’ve got a project in mind?</p>
+          <p class="mt-[40px]">🤲 Your current project needs more hands?</p>
+          <p class="mt-[40px]">🤷 Don’t know where to start?</p>
           <p class="mt-[40px] font-semibold">
-            Shoot me a message and I’ll get back to you ASAP.
+            📩 Shoot me a message and I’ll get back to you ASAP.
           </p>
           <p class="mt-[40px]">
             Speak soon,<br />
