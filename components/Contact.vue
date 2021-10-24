@@ -31,7 +31,7 @@
         </form>
 
         <div class="contact__panel">
-          <h3 class="text-4xl">How Can I Help?</h3>
+          <h3 class="text-4xl font-serif">How Can I Help?</h3>
           <p class="mt-[50px]">🧠 You’ve got a project in mind?</p>
           <p class="mt-[40px]">🤲 Your current project needs more hands?</p>
           <p class="mt-[40px]">🤷 Don’t know where to start?</p>
@@ -71,6 +71,6 @@ textarea {
 }
 
 .contact__panel {
-  @apply w-6/12 hidden md:block bg-gradient-to-br from-[#9a65d9] to-[#28F3C3] text-[#f9f9f9] shadow-2xl px-[16px] py-[44px] lg:px-[44px] lg:py-[116px] text-2xl font-serif;
+  @apply w-6/12 hidden md:block bg-gradient-to-br from-[#9a65d9] to-[#28F3C3] text-[#f9f9f9] shadow-2xl px-[16px] py-[44px] lg:px-[44px] lg:py-[116px] text-2xl;
 }
 </style>
