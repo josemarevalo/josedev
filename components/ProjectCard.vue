@@ -4,7 +4,6 @@
       <nuxt-img
         :src="image.src"
         :alt="image.alt"
-        sizes="sm:410px md:250px lg:600px"
         loading="lazy"
         class="h-full object-cover"
       />
