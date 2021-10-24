@@ -20,7 +20,7 @@
           <div class="header__picture">
             <nuxt-img
               sizes="sm:212px lg:350px"
-              src="/images/avatars/Jose.png"
+              src="/images/avatars/Jose.webp"
               alt="jose-profile-picture"
               class="w-full h-full aspect-w-1 aspect-h-1"
             />

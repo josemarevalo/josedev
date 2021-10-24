@@ -4,7 +4,7 @@
 
     <div class="rubik hidden md:block md:w-6/12 relative">
       <nuxt-img
-        src="/images/Rubik_Cube.png"
+        src="/images/Rubik_Cube.webp"
         alt="Rubik Cube"
         loading="lazy"
         class="w-full h-full object-cover absolute"
