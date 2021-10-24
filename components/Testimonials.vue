@@ -37,7 +37,8 @@ export default {
           authorName: 'Rory Fink',
           authorRole: 'CEO — Luna Events',
           authorAvatar: {
-            src: 'images/avatars/Rory.jpeg',
+            src: '/images/avatars/Rory.jpeg',
+            alt: 'Rory Fink',
           },
         },
         {
@@ -45,7 +46,8 @@ export default {
           authorName: 'Jacob Moran',
           authorRole: 'Agile Coach — ANZ',
           authorAvatar: {
-            src: 'images/avatars/Jacob.jpeg',
+            src: '/images/avatars/Jacob.jpeg',
+            alt: 'Jacob Moran',
           },
         },
         {
@@ -53,7 +55,8 @@ export default {
           authorName: 'Margarita Silva',
           authorRole: 'CEO — Zomno App',
           authorAvatar: {
-            src: 'images/avatars/Margarita.jpeg',
+            src: '/images/avatars/Margarita.jpeg',
+            alt: 'Margarita Silva',
           },
         },
       ],

@@ -38,7 +38,7 @@ export default {
           categories: ['Django', 'Bootstrap', 'Vue.js'],
           excerpt: 'Creative Workshops Marketplace and Booking System.',
           image: {
-            src: 'images/Talleru.png',
+            src: '/images/Talleru.png',
             alt: "Woman's hands knitting",
           },
           type: 'Full Stack',
@@ -48,7 +48,7 @@ export default {
           categories: ['Django', 'Moment.js', 'Vue.js'],
           excerpt: 'Health Consulting Manager and Sleep Trackking App.',
           image: {
-            src: 'images/Sleep-Coaching.png',
+            src: '/images/Sleep-Coaching.png',
             alt: 'Baby sleeping on the side',
           },
           type: 'Full Stack',
@@ -58,7 +58,7 @@ export default {
           categories: ['Python', 'Lambda', 'Pandas'],
           excerpt: 'Serverless Asynchronous Reporting From eBay’s Trading API.',
           image: {
-            src: 'images/Inventory_Report.png',
+            src: '/images/Inventory_Report.png',
             alt: 'Warehouse shelves',
           },
           type: 'Backend',
@@ -68,7 +68,7 @@ export default {
           categories: ['Python', 'Selenium', 'SQLAlchemy'],
           excerpt: 'Multithreading Scraper and Bets Replication Bot.',
           image: {
-            src: 'images/Sports_Bet.png',
+            src: '/images/Sports_Bet.png',
             alt: "Woman's hands knitting",
           },
           type: 'Backend',

@@ -2,9 +2,11 @@
   <div class="testimonial-card md:flex md:flex-row lg:flex-col">
     <div class="-mt-16 md:mt-[24px] lg:-mt-16">
       <div class="testimonial-card__avatar-border">
-        <img
-          :src="require(`~/assets/${authorAvatar.src}`)"
-          alt="jose-profile-picture"
+        <nuxt-img
+          :src="authorAvatar.src"
+          :alt="authorAvatar.alt"
+          sizes="sm:136px"
+          loading="lazy"
           class="w-[120px] aspect-w-1 aspect-h-1 rounded-full"
         />
       </div>

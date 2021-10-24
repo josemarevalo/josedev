@@ -18,8 +18,9 @@
 
         <div class="w-full lg:w-4/12">
           <div class="header__picture">
-            <img
-              src="~/assets/images/avatars/Jose.png"
+            <nuxt-img
+              sizes="sm:212px lg:350px"
+              src="/images/avatars/Jose.png"
               alt="jose-profile-picture"
               class="w-full h-full aspect-w-1 aspect-h-1"
             />

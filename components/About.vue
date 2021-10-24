@@ -3,8 +3,10 @@
     <div class="black-bg"></div>
 
     <div class="rubik hidden md:block md:w-6/12 relative">
-      <img
-        src="~/assets/images/Rubik_Cube.png"
+      <nuxt-img
+        src="/images/Rubik_Cube.png"
+        alt="Rubik Cube"
+        loading="lazy"
         class="w-full h-full object-cover absolute"
       />
       <div class="w-full h-full bg-gradient-to-r from-[#1d1d1d] absolute" />
