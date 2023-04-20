@@ -54,7 +54,7 @@
               </a>
 
               <a
-                href="https://github.com/josematiasarevalo"
+                href="https://github.com/josemarevalo"
                 target="_blank"
                 class="about__button-link-item lg:mx-4"
               >
